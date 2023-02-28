@@ -1,0 +1,15 @@
+<div class="col-md-6 offset-md-3">
+    <h3> Create Employee </h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> Original Url</label>
+            <input type="text" class ="form-control" id = "originalUrl"
+                [(ngModel)] = "url.originalUrl" name = "originalUrl">
+        </div>
+
+    
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    
+    </form>
+    </div> 

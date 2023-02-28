@@ -1,0 +1,17 @@
+<h2> Url List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> Short Url</th>
+            <th> Original Url </th>
+            <th> Clicks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let url of urls" >
+            <td> {{ url.shortUrl }} </td>
+            <td> {{ url.originalUrl }} </td>
+            <td> {{ url.clicks }} </td>
+        </tr>
+    </tbody>
+</table>
